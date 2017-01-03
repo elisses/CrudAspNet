@@ -55,4 +55,4 @@ namespace DAL.Persistence
         }
     }
 }
-//regras de negocios da nossa aplicacao - consultas! - select, update,insert,delete 
+ //regras de negocios da nossa aplicacao - consultas! - select, update,insert,delete 
