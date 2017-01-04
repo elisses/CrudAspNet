@@ -13,5 +13,28 @@ namespace Site
         {
 
         }
+
+        protected void btnAcessar(object sender, EventArgs e)
+        {
+            //capturar o valor selecionado  na nossa drop down list:
+            string opcao = ddlMenu.SelectedValue;
+
+            switch (opcao)
+            {
+                case "0":
+                    lblMensagem.Text = "Selecione uma opção válida";
+                    break;
+                case "1":
+                    Response.Redirect("/Pages/Cadastro.aspx");
+                    break;
+                case "2":
+                    Response.Redirect("/Pages/Consulta.aspx");
+                    break;
+                case "3":
+                    Response.Redirect("/Pages/Detalhes.aspx");
+                    break;
+            }
+
+        }
     }
 }
