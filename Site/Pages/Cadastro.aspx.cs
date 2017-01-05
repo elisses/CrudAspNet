@@ -16,7 +16,7 @@ namespace Site.Pages
 
         }
 
-        protected void btnCadastrar(object sender, EventArgs e)
+        protected void btnCadastrarCliente(object sender, EventArgs e)
         {
             try
             {
@@ -26,10 +26,15 @@ namespace Site.Pages
                 p.Endereco = txtEndereco.Text;
                 p.Email = txtEmail.Text;
 
-                PessaoDAL d = new PessaoDAL();
+                PessoaDAL d = new PessoaDAL();
                 d.Gravar(p);//gravando a pessoa
 
-                lblMensagem.Text = "Cliente " + p.Nome + " Cadastrado com sucesso!";              
+                lblMensagem.Text = "Cliente " + p.Nome + " Cadastrado com sucesso!";
+
+                txtNome.Text = "";
+                txtEndereco.Text = "";
+                txtEmail.Text = "";
+                            
             }
             catch (Exception ex)
             {

@@ -20,7 +20,7 @@ namespace DAL.Persistence
             try
             {
                 //buscar a connection string
-                Con = new SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\elisvieira\Documents\ADD-WS0430.mdf;Integrated Security=True;Connect Timeout=30"); 
+                Con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\elisvieira\\Documents\\ADD-WS0430.mdf;Integrated Security=True;Connect Timeout=30"); 
                 Con.Open();//abrindo a conexao
             }
             catch (Exception EX)

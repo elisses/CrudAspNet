@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="Site.Pages.Cadastro" %>
-<%@ Assembly Src="../global/class/funcoes.cs" %>
+
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <title>Cadastro</title>
     <link type="text/css"rel="stylesheet" href="Content/bootstrap.css" />
 </head>
-    <script src="Scripts/jquery-1.91.min.js"></script>
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 <body>
     <form id="form1" runat="server">
@@ -37,7 +37,7 @@
                     <asp:Label ID="lblMensagem" runat="server" />
                 </p>
 
-                <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" CssClass="btn btn-success btn-lg" onclick="btnCadastrar" />
+                <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" CssClass="btn btn-success btn-lg" onclick="btnCadastrarCliente" />
                 <a href="/Default.aspx" class="btn btn-default btn-lg">Voltar</a>
             </div>
 

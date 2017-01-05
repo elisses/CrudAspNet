@@ -31,3 +31,5 @@ C:\Users\elisvieira\Documents\Visual Studio 2015\Projects\CRUD\Site\bin\Microsof
 C:\Users\elisvieira\Documents\Visual Studio 2015\Projects\CRUD\Site\obj\Debug\Site.csprojResolveAssemblyReference.cache
 C:\Users\elisvieira\Documents\Visual Studio 2015\Projects\CRUD\Site\obj\Debug\Site.dll
 C:\Users\elisvieira\Documents\Visual Studio 2015\Projects\CRUD\Site\obj\Debug\Site.pdb
+C:\Users\elisvieira\documents\visual studio 2015\Projects\CRUD\Site\bin\DAL.dll
+C:\Users\elisvieira\documents\visual studio 2015\Projects\CRUD\Site\bin\DAL.pdb
