@@ -99,6 +99,8 @@ namespace DAL.Persistence
 
                 Cmd.Parameters.AddWithValue("@v1", Codigo);
 
+                Dr = Cmd.ExecuteReader();// execução da leitura das informações no BD
+
                 Pessoa p = null; // criando um espaço de memória. ponteiro
 
                 if (Dr.Read())//Se SqlDataReader Dr for  ler os registros
